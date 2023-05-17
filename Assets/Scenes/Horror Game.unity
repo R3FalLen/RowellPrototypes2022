@@ -3191,6 +3191,28 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &637842677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1693252891024278160, guid: 0d20e1d66b73cd747922d8c2aa19b159, type: 3}
+  m_PrefabInstance: {fileID: 2031542243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &637842679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637842677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2de5be9da2baf1c3b6fe4621cd026ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityEnabled: 1
+  pickUpRange: 3
+  maxMass: 5
+  pickedUpObjectDistanceFromPlayer: 2
+  dropDistance: 5
 --- !u!1001 &645074245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3733,11 +3755,11 @@ MonoBehaviour:
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
-  usableItemInventoryScroll: 0
-  item0Select: 0
-  item1Select: 0
-  item2Select: 0
-  item3Select: 0
+  usableItemInventoryScroll: 3
+  item0Select: 1
+  item1Select: 1
+  item2Select: 1
+  item3Select: 1
   item4Select: 0
   item5Select: 0
   item6Select: 0
